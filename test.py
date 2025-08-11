@@ -1,40 +1,47 @@
 """This program does basic math operations."""
 
-firstnumber = 10
-secondnumber = 5
 
-# Printing some messages
-print("Hello, World!")
-print("Welcome to my simple Python program.")
-print("Let's do some math operations.\n")
+def main():
+    """Run the math operations."""
+    first_number = 10
+    second_number = 5
 
-# Addition
-sumresult = firstnumber + secondnumber
-print("Addition of", firstnumber, "and", secondnumber, "is:", sumresult)
+    # Printing some messages
+    print("Hello, World!")
+    print("Welcome to my simple Python program.")
+    print("Let's do some math operations.\n")
 
-# Subtraction
-subresult = firstnumber - secondnumber
-print("Subtraction of", firstnumber, "and", secondnumber, "is:", subresult)
+    # Addition
+    sum_result = first_number + second_number
+    print("Addition of", first_number, "and", second_number, "is:", sum_result)
 
-# Multiplication
-mulresult = firstnumber * secondnumber
-print("Multiplication of", firstnumber, "and", secondnumber, "is:", mulresult)
+    # Subtraction
+    sub_result = first_number - second_number
+    print("Subtraction of", first_number, "and", second_number, "is:", sub_result)
 
-# Division
-divresult = firstnumber / secondnumber
-print("Division of", firstnumber, "and", secondnumber, "is:", divresult)
+    # Multiplication
+    mul_result = first_number * second_number
+    print("Multiplication of", first_number, "and", second_number, "is:", mul_result)
 
-print("\nNow let's count numbers from 1 to 5.")
+    # Division
+    div_result = first_number / second_number
+    print("Division of", first_number, "and", second_number, "is:", div_result)
 
-# Looping through numbers
-for i in range(1, 6):
-    print(i)
+    print("\nNow let's count numbers from 1 to 5.")
 
-print("\nNow let's print a simple multiplication table for", firstnumber)
+    # Looping through numbers
+    for i in range(1, 6):
+        print(i)
 
-# Multiplication table
-for i in range(1, 11):
-    product = firstnumber * i
-    print(f"{firstnumber} x {i} = {product}")
+    print("\nNow let's print a simple multiplication table for", first_number)
 
-print("\nProgram finished successfully.")
+    # Multiplication table
+    for i in range(1, 11):
+        product = first_number * i
+        print(f"{first_number} x {i} = {product}")
+
+    print("\nProgram finished successfully.")
+
+
+if __name__ == "__main__":
+    main()
