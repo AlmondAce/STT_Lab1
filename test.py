@@ -1,3 +1,5 @@
+"""This program does basic math operations."""
+
 first_number = 10
 second_number = 5
 
