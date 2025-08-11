@@ -1,28 +1,38 @@
+first_number = 10
+second_number = 5
+
 # Printing some messages
 print("Hello, World!")
 print("Welcome to my simple Python program.")
 print("Let's do some math operations.\n")
 
 # Addition
-a = 10
-b = 5
-sum_result = a + b
-print("Addition of", a, "and", b, "is:", sum_result)
+sum_result = first_number + second_number
+print("Addition of", first_number, "and", second_number, "is:", sum_result)
 
 # Subtraction
-sub_result = a - b
-print("Subtraction of", a, "and", b, "is:", sub_result)
+sub_result = first_number - second_number
+print("Subtraction of", first_number, "and", second_number, "is:", sub_result)
 
 # Multiplication
-mul_result = a * b
-print("Multiplication of", a, "and", b, "is:", mul_result)
+mul_result = first_number * second_number
+print("Multiplication of", first_number, "and", second_number, "is:", mul_result)
 
 # Division
-div_result = a / b
-print("Division of", a, "and", b, "is:", div_result)
+div_result = first_number / second_number
+print("Division of", first_number, "and", second_number, "is:", div_result)
 
-print("\nNow let's use a loop to print numbers from 1 to 5.")
+print("\nNow let's count numbers from 1 to 5.")
+
+# Looping through numbers
 for i in range(1, 6):
     print(i)
+
+print("\nNow let's print a simple multiplication table for", first_number)
+
+# Multiplication table
+for i in range(1, 11):
+    product = first_number * i
+    print(f"{first_number} x {i} = {product}")
 
 print("\nProgram finished successfully.")
